@@ -14,7 +14,7 @@
 <li>不存在的地址能导向到错误页面；</li>
 </ol>
 
-## Build Setup
+## 编译步骤
 
 ``` bash
 # install dependencies
