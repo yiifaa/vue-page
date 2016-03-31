@@ -1,7 +1,33 @@
+<style src="../node_modules/bootstrap/dist/css/bootstrap.css"></style>
+<style>
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#app {
+  margin-top: -100px;
+  max-width: 600px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px
+}
+</style>
 <template>
   <div id="app">
     <img class="logo" src="./assets/logo.png">
     <hello></hello>
+    <button class="btn btn-primary">Hello</button>
     <p>
       Welcome to your Vue.js app. To get started, take a look at the
       <a href="https://github.com/vuejs-templates/webpack#folder-structure" target="_blank">README</a>
@@ -30,27 +56,4 @@ export default {
 }
 </script>
 
-<style>
-html {
-  height: 100%;
-}
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-#app {
-  margin-top: -100px;
-  max-width: 600px;
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-}
-
-.logo {
-  width: 100px;
-  height: 100px
-}
-</style>
